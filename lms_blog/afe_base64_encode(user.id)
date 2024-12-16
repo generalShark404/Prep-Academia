@@ -1,0 +1,5 @@
+Help on function get_current_site in module django.contrib.sites.shortcuts:
+
+ggeett__ccuurrrreenntt__ssiittee(request)
+    Check if contrib.sites is installed and return either the current
+    ``Site`` object or a ``RequestSite`` object based on the request.

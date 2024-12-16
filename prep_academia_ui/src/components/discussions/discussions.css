@@ -1,0 +1,100 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.discussion-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #343a40;
+}
+
+.discussion-card {
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+    position: relative;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.comment-text {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.reply-btn {
+    font-size: 13px;
+}
+
+.replies {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.reply-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.user-img-reply {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.reply-username {
+    font-size: 14px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.reply-text {
+    font-size: 13px;
+    color: #6c757d;
+}
+
+.comment-form textarea {
+    resize: none;
+}
+.left{
+    background: #d1e7dd;
+}
+.right{
+    background:#f1f1f1 ;
+}
+.comment-form button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.modal-footer{
+    z-index: 3;
+}
+@media (max-width: 768px) {
+    .discussion-card, .reply-card {
+        padding: 15px;
+    }
+
+    .replies {
+        padding-left: 20px;
+    }
+}
